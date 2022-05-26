@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
- .row-even {
-    @apply bg-gray-100 border-b;
- }
-}
-
 @layer base {
     #even {
         @apply bg-gray-100 border-b;
